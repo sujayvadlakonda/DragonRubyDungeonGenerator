@@ -272,7 +272,7 @@ class DungeonGenerator
     return unless state.game_state == :connect
 
     # Only runs when calc_connect is called for the first time
-    if connect.first_room
+    unless connect.first_room
       calc_connectors
       connect.first_room = room.rects.clone.shift
     end
