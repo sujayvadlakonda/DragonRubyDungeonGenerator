@@ -562,7 +562,7 @@ class DungeonGenerator
   end
 
   def connect_color
-    [119, 153, 204]
+    [134, 243, 247]
   end
 
   def room
