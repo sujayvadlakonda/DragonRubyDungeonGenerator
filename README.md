@@ -1,1 +1,1 @@
-![](demo.gif =250x250)
+![](demo.gif)
